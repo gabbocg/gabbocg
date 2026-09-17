@@ -1,14 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120"
-     role="img" aria-label="Gabriel E. Cabrera Guzman — empirical finance, Manchester UK">
-  <style>
-    .name { font: 600 34px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
-    .sub  { font: 400 15px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #59636e; letter-spacing: .02em; }
-    @media (prefers-color-scheme: dark) {
-      .name { fill: #e6edf3; }
-      .sub  { fill: #9198a1; }
-    }
-  </style>
-  <rect x="0" y="26" width="3" height="68" fill="#276DC3"/>
-  <text class="name" x="24" y="62">Gabriel E. Cabrera Guzmán</text>
-  <text class="sub"  x="26" y="88">Empirical finance · forecasting · R · Manchester, UK</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 880 200" width="880" height="200"
+     role="img" aria-label="Gabriel E. Cabrera Guzmán — empirical finance, Manchester, UK">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#276DC3" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#276DC3" stop-opacity="0.04"/>
+    </linearGradient>
+    <clipPath id="clip"><rect width="880" height="200"/></clipPath>
+  </defs>
+
+  <rect width="880" height="200" fill="url(#bg)"/>
+
+  <!-- guide lines -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="0" y1="24" x2="880" y2="24" opacity="0.7"/>
+    <line x1="0" y1="176" x2="880" y2="176" opacity="0.7"/>
+    <line x1="48" y1="0" x2="48" y2="200" opacity="0.4"/>
+    <line x1="568" y1="0" x2="568" y2="200" opacity="0.4"/>
+  </g>
+  <g fill="#30363d" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">
+    <text x="14" y="20">main</text>
+    <text x="836" y="192" text-anchor="end">h = 1</text>
+  </g>
+
+  <!-- left text block -->
+  <g font-family="-apple-system, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <text x="64" y="82" fill="#e6edf3" font-size="34" font-weight="600" letter-spacing="0.5">Gabriel E. Cabrera</text>
+    <text x="64" y="114" fill="#276DC3" font-size="15" font-weight="500" letter-spacing="3">EMPIRICAL FINANCE</text>
+    <text x="64" y="150" fill="#7d8590" font-size="12.5" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" letter-spacing="1">R · C++ · Python · Quarto · WRDS · Manchester</text>
+  </g>
+  <line x1="64" y1="126" x2="212" y2="126" stroke="#276DC3" stroke-width="1.5" opacity="0.85"/>
+  <line x1="216" y1="126" x2="228" y2="126" stroke="#58a6a6" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- right: forecast animation -->
+  <g clip-path="url(#clip)">
+    <line x1="600" y1="150" x2="860" y2="150" stroke="#30363d" stroke-width="1"/>
+    <g stroke="#21262d" stroke-width="1">
+      <line x1="640" y1="60" x2="640" y2="150"/>
+      <line x1="680" y1="60" x2="680" y2="150"/>
+      <line x1="720" y1="60" x2="720" y2="150"/>
+      <line x1="760" y1="60" x2="760" y2="150"/>
+      <line x1="800" y1="60" x2="800" y2="150"/>
+    </g>
+
+    <!-- out-of-sample boundary -->
+    <line x1="776" y1="52" x2="776" y2="150" stroke="#3d444d" stroke-width="1" stroke-dasharray="2 4"/>
+
+    <!-- uncertainty cone -->
+    <path d="M776,74 L860,44 L860,116 Z" fill="url(#cone)" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.9;0.9;0" keyTimes="0;0.5;0.62;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- realized path -->
+    <path id="realized" d="M600,132 L622,118 L644,126 L666,104 L688,114 L710,92 L732,100 L754,82 L776,74"
+          fill="none" stroke="#e6edf3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="260" stroke-dashoffset="260" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" values="260;0;0;260" keyTimes="0;0.5;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- forecast path -->
+    <path d="M776,74 L804,66 L832,72 L860,58"
+          fill="none" stroke="#276DC3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="4 4" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.52;0.64;0.9;1" dur="7s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- traveling marker -->
+    <circle r="3.5" fill="#58a6a6" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.5;0.56;1" dur="7s" repeatCount="indefinite"/>
+      <animateMotion dur="7s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;1" keyTimes="0;0.5;1">
+        <mpath xlink:href="#realized" href="#realized"/>
+      </animateMotion>
+    </circle>
+
+    <g fill="#7d8590" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing="1.5">
+      <text x="600" y="46">in-sample</text>
+      <text x="784" y="46">forecast</text>
+    </g>
+  </g>
 </svg>

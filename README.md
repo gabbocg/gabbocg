@@ -33,9 +33,11 @@ pipelines for the data everyone in this field rebuilds from scratch.
 Repositories named after a journal and a year (`IRFA-2024`, `JCOMM-2023`,
 `JRPO-2021`) hold the code behind published papers.
 
-## Contact
+## Elsewhere
 
-[gcabrerag.rbind.io](https://gcabrerag.rbind.io/), or an issue on any repository above.
+[website](https://gcabrerag.rbind.io) · [google scholar](https://scholar.google.com/citations?user=V88MPAsAAAAJ) · [linkedin](https://linkedin.com/in/gcabrerag)
+
+Or an issue on any repository above.
 
 ---
 
