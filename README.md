@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Quarto-39729E?style=flat&logo=quarto&logoColor=white" height="22"/>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" height="22"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" height="22"/>
-  <img src="https://img.shields.io/badge/Stata-1A5F91?style=flat&logoColor=white" height="22"/>
+  <img src="https://img.shields.io/badge/Stata-1A5F91?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiI%2BPGcgZmlsbD0iI2ZmZiI%2BPHJlY3QgeD0iNiIgeT0iMiIgd2lkdGg9IjMiIGhlaWdodD0iMyIvPjxyZWN0IHg9IjEwLjUiIHk9IjIiIHdpZHRoPSIzIiBoZWlnaHQ9IjMiLz48cmVjdCB4PSIxLjUiIHk9IjYuNSIgd2lkdGg9IjMiIGhlaWdodD0iMyIvPjxyZWN0IHg9IjYiIHk9IjYuNSIgd2lkdGg9IjMiIGhlaWdodD0iMyIvPjxyZWN0IHg9IjEwLjUiIHk9IjYuNSIgd2lkdGg9IjMiIGhlaWdodD0iMyIvPjxyZWN0IHg9IjEuNSIgeT0iMTEiIHdpZHRoPSIzIiBoZWlnaHQ9IjMiLz48cmVjdCB4PSI2IiB5PSIxMSIgd2lkdGg9IjMiIGhlaWdodD0iMyIvPjwvZz48L3N2Zz4%3D" alt="Stata" height="22"/>
 </p>
 
 ---
