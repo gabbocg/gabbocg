@@ -32,7 +32,7 @@ information from both market prices and firms' communications.
 
 **[py4fin](https://github.com/gabbocg/py4fin)** — Introduction to Python for Finance (ENGIN604), course materials.
 
-Repositories named after a journal and a year (e.g., `IRFA-2024`) hold the code behind published papers.
+Repos named after a journal and a year (e.g., `IRFA-2024`) hold the code behind published papers.
 
 ## Elsewhere
 
