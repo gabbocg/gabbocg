@@ -20,7 +20,7 @@ market prices and firms' communications.
 
 ## A few things here
 
-**[forecastdom](https://github.com/gabbocg/forecastdom)** — conditional and unconditional forecast dominance tests, following Li, Liao and Quaedvlieg (2022).
+**[forecastdom](https://github.com/gabbocg/forecastdom)** — conditional and unconditional forecast dominance tests.
 
 **[sdim](https://github.com/gabbocg/sdim)** — supervised dimension reduction for forecasting.
 
