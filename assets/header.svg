@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120"
+     role="img" aria-label="Gabriel E. Cabrera Guzman — empirical finance, Manchester UK">
+  <style>
+    .name { font: 600 34px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+    .sub  { font: 400 15px ui-sans-serif, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #59636e; letter-spacing: .02em; }
+    @media (prefers-color-scheme: dark) {
+      .name { fill: #e6edf3; }
+      .sub  { fill: #9198a1; }
+    }
+  </style>
+  <rect x="0" y="26" width="3" height="68" fill="#276DC3"/>
+  <text class="name" x="24" y="62">Gabriel E. Cabrera Guzmán</text>
+  <text class="sub"  x="26" y="88">Empirical finance · forecasting · R · Manchester, UK</text>
+</svg>
