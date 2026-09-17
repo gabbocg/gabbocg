@@ -11,13 +11,15 @@
 
 ---
 
-PhD candidate in finance at Alliance Manchester Business School. I work on
-return and volatility forecasting, and I write the R that goes with it.
+PhD candidate in finance at Alliance Manchester Business School. I forecast
+returns and volatility with machine learning, across equities, commodities and
+real estate, and I write the R that goes with it.
 
-Everything I build for that work ends up here: statistical packages that came
-out of my own projects, replications of papers I had to run myself before I
-trusted them, and pipelines for the data everyone in this field rebuilds from
-scratch.
+Everything I build for that work ends up here: the packages that came out of
+it (`sdim` and `forecastdom`, both on CRAN), replications of the forecasting
+papers I had to run myself before I trusted them, and code for the datasets
+this field rebuilds from scratch, from DGTW benchmarks and 13F ownership to
+FRED-MD imputation and NBBO ticks.
 
 ## A few things here
 
