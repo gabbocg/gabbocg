@@ -11,11 +11,10 @@
 
 ---
 
-Everything here comes out of my PhD research at Alliance Manchester Business
-School: R packages on CRAN (`sdim`, `forecastdom`), replications of the
-forecasting papers I had to run myself before I trusted them, and pipelines
-for the datasets this field keeps rebuilding from scratch, from DGTW
-benchmarks and 13F ownership to FRED-MD imputation and NBBO ticks.
+Everything here comes out of my research. Some of it is packaged for CRAN,
+like `sdim` and `forecastdom`. The rest is replication code for papers I had
+to run myself before I trusted them, and pipelines for the data this field
+keeps rebuilding from scratch.
 
 ## A few things here
 
