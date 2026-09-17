@@ -18,10 +18,6 @@ financial econometrics. I combine structured and unstructured data with
 machine learning and computational methods to extract information from both
 market prices and firms' communications.
 
-Everything here comes out of my research. Two R packages on CRAN, replication
-code for papers I had to run before I trusted them, and pipelines for the data
-this field keeps rebuilding from scratch.
-
 ## A few things here
 
 **[forecastdom](https://github.com/gabbocg/forecastdom)** — conditional and unconditional forecast dominance tests, following Li, Liao and Quaedvlieg (2022).
