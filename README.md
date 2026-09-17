@@ -14,9 +14,9 @@
 PhD candidate in finance at Alliance Manchester Business School. I work on
 return and volatility forecasting, and I write the R that goes with it.
 
-What is public here is research code: packages that came out of my own
-projects, replications of papers I needed to understand before trusting, and
-pipelines for the data everyone in this field rebuilds from scratch.
+Everything public here is research code: packages that came out of my own
+projects, replications of papers I had to run myself before I trusted them,
+and pipelines for the data everyone in this field rebuilds from scratch.
 
 ## A few things here
 
