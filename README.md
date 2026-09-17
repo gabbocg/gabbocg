@@ -14,9 +14,9 @@
 Hi, I'm a Ph.D. candidate in Finance at Alliance Manchester Business School,
 UK. My research examines how information is generated, extracted, and
 incorporated into asset prices, using empirical methods from asset pricing and
-financial econometrics. I combine structured and unstructured data with
-machine learning and computational methods to extract information from both
-market prices and firms' communications.
+financial econometrics. To address these questions, I combine structured and
+unstructured data with machine learning and computational methods to extract
+information from both market prices and firms' communications.
 
 ## A few things here
 
