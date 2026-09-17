@@ -11,17 +11,15 @@
 
 ---
 
-Everything here comes out of my research. The empirical tools end up as R
-packages, MIT-licensed and on CRAN, developed in the open with their own
-documentation. The rest is replication code for papers I had to run myself
-before I trusted them, and pipelines for the data this field keeps rebuilding
-from scratch.
+Everything here comes out of my research. Two R packages on CRAN, replication
+code for papers I had to run before I trusted them, and pipelines for the data
+this field keeps rebuilding from scratch.
 
 ## A few things here
 
-**[forecastdom](https://github.com/gabbocg/forecastdom)** — tests of out-of-sample predictive ability, following the Li, Liao and Quaedvlieg (2022) taxonomy, with nested models, encompassing and parameter instability alongside.
+**[forecastdom](https://github.com/gabbocg/forecastdom)** — conditional and unconditional forecast dominance tests, following Li, Liao and Quaedvlieg (2022).
 
-**[sdim](https://github.com/gabbocg/sdim)** — supervised dimension reduction for asset pricing and macroeconomic forecasting, with tools for judging what the extracted factors are worth.
+**[sdim](https://github.com/gabbocg/sdim)** — supervised dimension reduction for forecasting.
 
 **[pead](https://github.com/gabbocg/pead)** — standardized earnings surprises from WRDS, end to end.
 
