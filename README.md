@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/gabbocg/gabbocg/main/assets/header.svg?v=2" alt="Gabriel E. Cabrera Guzmán — empirical finance, Manchester, UK" width="880"/>
+  <img src="https://raw.githubusercontent.com/gabbocg/gabbocg/main/assets/header.svg?v=3" alt="Gabriel E. Cabrera Guzmán — empirical finance, Manchester, UK" width="880"/>
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" height="22"/>
