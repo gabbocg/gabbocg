@@ -12,7 +12,7 @@
 ---
 
 <p align="justify">
-Hi, I'm a Ph.D. candidate in Finance at Alliance Manchester Business School,
+Hi, I'm a Ph.D. candidate in Finance at Alliance Manchester Business School (AMBS),
 UK. My research examines how information is generated, extracted, and
 incorporated into asset prices, using empirical methods from asset pricing and
 financial econometrics. To address these questions, I combine structured and
